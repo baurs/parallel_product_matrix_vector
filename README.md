@@ -7,7 +7,7 @@ Each processor contains a raw band of the matrix and the vector. They exchange t
 A function allows you to compute the product using MPICH2
 There is a main method with an example
 
-
+There is also a page_rank file that is an application of the last algorithm. See https://en.wikipedia.org/wiki/PageRank (it uses the power method)
 
 To run the code :
 mpiexec –localonly [number_of_processors] matrice_vecteur.exe [row_number_of_matrix] [column_number_of_matrix] 
